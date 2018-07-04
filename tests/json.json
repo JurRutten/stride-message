@@ -1,0 +1,27 @@
+{
+  "body":
+  {
+    "version": 1,
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Here is some code: "
+          },
+          {
+            "type": "text",
+            "text": "var i = 0; doSomethingWith(i);",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

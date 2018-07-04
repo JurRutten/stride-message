@@ -1,0 +1,26 @@
+{
+    "name": "egol07/stride-message",
+    "authors": [
+        {
+            "name": "Christian Timm",
+            "email": "christian@egol.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "platform": {
+            "php": "5.3.9"
+        }
+    },
+    "require": {
+        "illuminate/support": "^4.1",
+        "symfony/var-dumper": "^2.8",
+        "nesbot/carbon": "^1.31",
+        "vlucas/phpdotenv": "^2.5"
+    }, 
+    "autoload": {
+        "psr-4": {
+            "EGOL\\Stride\\" : "src/" 
+        }
+    }
+}
